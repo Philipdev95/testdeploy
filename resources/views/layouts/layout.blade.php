@@ -11,12 +11,12 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ url('js/modal.js') }}" defer></script>
+    <script src="/public/js/app.js" defer></script>
+    <script src="/public/js/modal.js" defer></script>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ url('css/main.css') }}" rel="stylesheet">
+    <link href="/public/css/app.css" rel="stylesheet">
+    <link href="/public/css/main.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-oi8o31xSQq8S0RpBcb4FaLB8LJi9AT8oIdmS1QldR8Ui7KUQjNAnDlJjp55Ba8FG" crossorigin="anonymous">
