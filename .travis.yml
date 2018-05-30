@@ -1,0 +1,18 @@
+os:
+- linux
+cache:
+  directories:
+  - "$HOME/.composer/cache"
+language: php
+php:
+- 7.2
+install:
+- composer install
+script:
+- phpunit --configuration phpunit.xml --coverage-text
+deploy:
+  provider: azure_web_apps
+  verbose: true
+notifications:
+  email:
+    recipients: emmakristina95@hotmail.com
